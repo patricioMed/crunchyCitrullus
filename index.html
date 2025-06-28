@@ -83,16 +83,60 @@
         border-radius: 0.3rem;
       }
 
-/*       @media (max-width: 100px) {
+      /* Extra small devices (phones < 400px) */
+      @media (max-width: 400px) {
         .card {
-          padding: 2rem 1.25rem;
+          padding: 2rem 1rem;
         }
 
         .logo {
           max-width: 100%;
           min-width: unset;
         }
-      } */
+
+        h1 {
+          font-size: 1.4rem;
+        }
+
+        p {
+          font-size: 0.95rem;
+        }
+      }
+
+      /* Tablets */
+      @media (max-width: 768px) {
+        .card {
+          padding: 2rem 1.5rem;
+        }
+
+        .logo {
+          max-width: 90%;
+          min-width: unset;
+        }
+
+        h1 {
+          font-size: 1.6rem;
+        }
+
+        p {
+          font-size: 1rem;
+        }
+      }
+
+      /* Small laptops and desktops */
+      @media (max-width: 1024px) {
+        .card {
+          padding: 2.5rem 2rem;
+        }
+
+        h1 {
+          font-size: 1.9rem;
+        }
+
+        p {
+          font-size: 1.1rem;
+        }
+      }
     </style>
   </head>
   <body>
@@ -100,7 +144,7 @@
       <!-- Watermelon/Cereal style logo -->
       <img src="citrullus.jpg" alt="Crunchy Citrullus Logo" class="logo" />
 
-      <h1>Thank You for Scanningg!</h1>
+      <h1>Thank You for Scanning!</h1>
       <p>
         You’ve successfully used your <span class="highlight">10% off</span> on
         your In-A-Pouch cereal purchase! 🎉
